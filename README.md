@@ -1,5 +1,7 @@
 # Software Development Workshop
 
+Lessons on Good Software Development from the Industry
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
