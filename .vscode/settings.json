@@ -1,0 +1,14 @@
+{
+  // Force format on save for this workspace
+  "editor.formatOnSave": true,
+  // Forces JavaScript files to use prettier and have a default tab size of 2
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  // Forces SCSS files to use prettier and have a default tab size of 2
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  }
+}
