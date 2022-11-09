@@ -359,6 +359,7 @@ For example, compare [`format1.js`](../resources/format1.js) with
 [`format2.js`](../resources/format2.js) in the `resources` folder. These two
 files accomplish the same thing, but they may look very different to different
 developers. 
+
 * MDN Web Development Style Guides
   * MDN provides a set of style guides found [here](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide)
   * Describes coding style for HTML, CSS, and JavaScript
@@ -385,6 +386,13 @@ style guide on writing JavaScript code
   * [Google Python Style
 Example](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
     ) - Example of Google's style (mainly for docstrings)
+* Docstrings are incredibly important for documenting functions
+  * See points above for guides on writing docstrings for different languages
+  * See the [`exampleDocstring.js`](../resources/exampleDocstring.js) file for a
+    JSDoc example
+  * ❕Note: Don't spend too much time creating the perfect docstring, since
+    function arguments, return values, and implementations can often change over
+    the course of a project
 ### Testing
 * For really large projects with clear feature requirements, writing automated
   tests can be extremely helpful
