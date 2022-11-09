@@ -374,8 +374,36 @@ of these things that need to get done within a project.
     Testing Library 
   * [Pytest](https://docs.pytest.org/) - Most popular testing library for Python developers 
 
-### DRY
+### Don't Repeat Yourself (DRY)
+[DRY code](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) is a term you
+will hear a lot when working in a software company. The basic idea is that you
+want your codebase to be as small and efficient as possible, so you try to not
+be reusing code by copying it in many places.
 
+* Write code that is used many times and/or in different places in a function or
+  method, then just call that function at the different times and locations
+  within your code
+* Create
+  [abstractions](https://en.wikipedia.org/wiki/Abstraction_(computer_science)):
+  put simply, create an easily accessible frameworks so that you don't have to
+  understand every single detail of how something works in your code
+  * See [here](https://developer.mozilla.org/en-US/docs/Glossary/Abstraction)
+    for an example definition in the web development context
+  * For example, [D3](https://d3js.org/) is an abstraction; you use D3's cool
+    tools to create SVGs, but you don't know and don't have to care about how it
+    actually creates displays those SVGs
+* Use composition for React components - React has a [nice
+  page](https://reactjs.org/docs/composition-vs-inheritance.html) explaining how
+  to do this
+* Keep the [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) in mind
+  * Avoid passing in entire objects as arguments to functions if only a couple
+    of that object's properties will be used. Be as specific as possible
+  * Of course, does not always apply, so use common sense 
+  * [Medium
+    article](https://betterprogramming.pub/demeters-law-don-t-talk-to-strangers-87bb4af11694)
+    on this topic
+  * See the javascript file [here](../resources/lawOfDemeterExample.js) for an
+    example of this in action
 ### Style Guides and Docstrings
 * JavaScript
   * [JSDoc](https://jsdoc.app/) - JavaScript *Docstring* Style Guide
