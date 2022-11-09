@@ -412,6 +412,26 @@ Example](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.
     function arguments, return values, and implementations can often change over
     the course of a project
 
+### Web Dev Styling Pointers (adapted from the above style guides)
+* Use [2-space indentation](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript#spacing_and_indentation) 
+* Use [single
+  quotes](https://google.github.io/styleguide/jsguide.html#features-strings-use-single-quotes) (`'single'`)
+  for string literals instead of double quotes (`"double"`)
+* Use [triple equals](https://google.github.io/styleguide/jsguide.html#features-equality-checks) (`===`) over double equals (`==`)
+* Use
+  [braces](https://google.github.io/styleguide/jsguide.html#formatting-braces-all)
+  (`{}`) for blocks of code (conditionals, loops, etc.) unless the conditional
+  is extremely simple
+* Use
+  [semicolons](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types)
+  at the end of all lines
+* Avoid [ternary
+  operators](https://medium.com/technogise/avoid-complex-conditionals-using-the-ternary-operator-a4c391dbf72f)
+  as much as possible
+* Avoid lines [over 80 columns
+  long](https://google.github.io/styleguide/jsguide.html#formatting-column-limit) 
+* Avoid [arrow code](#arrow-code)
+
 ### Don't Repeat Yourself (DRY)
 [DRY code](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) is a term you
 will hear a lot when working in a software company. The basic idea is that you
