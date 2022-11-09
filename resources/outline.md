@@ -1,4 +1,22 @@
-# Lunch and Learn/Workshop Outline and Resources
+# Lunch and Learn Outline and Resources
+
+## Disclaimer
+The goal that I had in mind with this presentation was to share some of these
+philosophies, principles, tips and tricks popularized by "Big Tech", the experts
+of software development.
+
+My thoughts were that perhaps in the future some of these methods can be used to
+improve and speed up the process of making meaningful and high quality big data
+projects for the public good. Of course, take it with a grain of salt; some of
+these principles are probably *not* a good idea to implement in the lab because
+of a very different context.
+
+Also, I am totally not qualified to be sharing these things (having never worked
+full time). Unless specifically backed by data, a lot of stuff presented here is
+anecdotal based on my two previous experiences of interning at Amazon and
+talking to people in the industry. These methods might not accurately reflect
+the current state of the industry.
+
 
 ## Philosophies of Software Development
 
