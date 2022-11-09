@@ -393,30 +393,6 @@ Example](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.
   * ❕Note: Don't spend too much time creating the perfect docstring, since
     function arguments, return values, and implementations can often change over
     the course of a project
-### Testing
-* For really large projects with clear feature requirements, writing automated
-  tests can be extremely helpful
-  * Most software development teams make sure that they are constantly testing
-    their code
-  * Each time a new feature is added or a bug is fixed, new tests are written,
-    and sometimes teams might require test result data in all commit messages
-* Some teams embrace [Test Driven
-  Development](https://en.wikipedia.org/wiki/Test-driven_development), which is
-  a process in which tests for a feature are written *before* the actual feature
-  is implemented 
-* Know the difference between unit
-  tests and integration/end-to-end
-  tests
-  * [Unit tests](https://en.wikipedia.org/wiki/Unit_testing) test individual
-    functions and components
-  * [Integration tests](https://en.wikipedia.org/wiki/Integration_testing) (or
-    E2E) test the individual components as a group, typically testing actual (or
-    simulated) interactions performed by users 
-* Popular testing libraries
-  * [Jest](https://jestjs.io/) - Unit test library for web development (built into [CRA](https://create-react-app.dev/) apps) 
-  * [Cypress](https://www.cypress.io/) - End to End (E2E) Web Development
-    Testing Library 
-  * [Pytest](https://docs.pytest.org/) - Most popular testing library for Python developers 
 
 ### Don't Repeat Yourself (DRY)
 [DRY code](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) is a term you
@@ -448,4 +424,31 @@ be reusing code by copying it in many places.
     on this topic
   * See the javascript file [here](../resources/lawOfDemeterExample.js) for an
     example of this in action
+
 ### Arrow Code
+### Testing
+* For really large projects with clear feature requirements, writing automated
+  tests can be extremely helpful
+  * Most software development teams make sure that they are constantly testing
+    their code
+  * Each time a new feature is added or a bug is fixed, new tests are written,
+    and sometimes teams might require test result data in all commit messages
+* Some teams embrace [Test Driven
+  Development](https://en.wikipedia.org/wiki/Test-driven_development), which is
+  a process in which tests for a feature are written *before* the actual feature
+  is implemented 
+* Know the difference between unit
+  tests and integration/end-to-end
+  tests
+  * [Unit tests](https://en.wikipedia.org/wiki/Unit_testing) test individual
+    functions and components
+  * [Integration tests](https://en.wikipedia.org/wiki/Integration_testing) (or
+    E2E) test the individual components as a group, typically testing actual (or
+    simulated) interactions performed by users 
+* Popular testing libraries
+  * [Jest](https://jestjs.io/) - Unit test library for web development (built into [CRA](https://create-react-app.dev/) apps) 
+  * [Cypress](https://www.cypress.io/) - End to End (E2E) Web Development
+    Testing Library 
+  * [Pytest](https://docs.pytest.org/) - Most popular testing library for Python developers 
+
+
