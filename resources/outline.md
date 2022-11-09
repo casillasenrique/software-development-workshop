@@ -16,7 +16,7 @@ that provides a set of values and principles with the purpose of delivering
 software solutions faster and with greater quality.
 
 * Agile is the most widely adopted development framework in the tech industry;
-  see the Digital.ai [15th State of Agile
+  🔎see the Digital.ai [15th State of Agile
   Report](https://digital.ai/resource-center/analyst-reports/state-of-agile-report/)
   from 2021
 * Check out the [Manifesto for Agile Software
@@ -93,7 +93,7 @@ of these things that need to get done within a project.
 
 ### Issues Overview
 * Issues are central to managing features and bugs; an issue describes a
-  specific feature, bug, task, or concept. Issues are taken from a backlog (see
+  specific feature, bug, task, or concept. Issues are taken from a backlog (🔎see
   the [Scrum section](#scrum) for an example) assigned to developers, and are
   resolved by those developers
 * Components of issues:
@@ -147,7 +147,7 @@ of these things that need to get done within a project.
   * [Miro](https://miro.com/) provides a [Kanban board
     feature](https://miro.com/kanban/)
   * [Notion](https://www.notion.so/product) provides a [Kanban board
-    feature](https://www.notion.so/help/boards)\
+    feature](https://www.notion.so/help/boards)
   * *[Blog](https://clickup.com/blog/free-kanban-software/) showing other options*
 
 ### Documenting Bugs
@@ -249,7 +249,7 @@ of these things that need to get done within a project.
 * While it is not that important that all developers use the same environment,
   it is extremely helpful that there are some standards to maintain consistency
   within your codebase.
-* See the [coding principles section](#style-guides-and-docstrings) on examples
+* 🔎See the [coding principles section](#style-guides-and-docstrings) on examples
   of how software companies use style guides to create this consistency in the
   first place
 * Examples of simple ways to enforce consistency and create a nicer developer experience
@@ -260,12 +260,12 @@ of these things that need to get done within a project.
     * Not everyone has to be using VS Code, since Prettier is supported in IntelliJ products like
     WebStorm
     ([documentation](https://www.jetbrains.com/help/webstorm/prettier.html))
-    * See the [`.prettierrc` file in this repository](../.prettierrc) for an example!
+    * 🔎See the [`.prettierrc` file in this repository](../.prettierrc) for an example!
   * VS Code Workplace `settings.json` Files - [documentation](https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings)
     * Some teams on tech companies all agree to use VS Code, then set up
       workspace settings in a `settings.json` file to ensure consistent styling,
       tasks, and more
-    * See [`.vscode/settings.json`](../.vscode/settings.json) for an example!
+    * 🔎See [`.vscode/settings.json`](../.vscode/settings.json) for an example!
   * Turning on "format on save" in your IDE or editor (`editor.formatOnSave` in
     VS Code)
     
@@ -280,14 +280,14 @@ of these things that need to get done within a project.
   teams use
   * Consists of a major, minor, and patch version number (e.g.
     `major.minor.patch = 1.2.1`).
-  * See the [official documentation]((https://semver.org/spec/v2.0.0.html) ) for
+  * 🔎See the [official documentation]((https://semver.org/spec/v2.0.0.html) ) for
     rules on when to update each number, but tl;dr update the **patch**
     version whenever you fix a bug, the **minor** version whenever you add a
     feature, and the **major** version whenever you make a
     backwards-incompatible change (e.g. when you completely change how users
     might interact with something)
 * Versions usually get updated on new deployments or releases, not on every
-  commit (see the [branching models section](#git-branching-models))
+  commit (🔎see the [branching models section](#git-branching-models))
 * Consider including a version number somewhere in your codebase
   * A simple place is to include it in the [`package.json`
     file](../package.json)
@@ -365,7 +365,7 @@ developers.
   * Describes coding style for HTML, CSS, and JavaScript
 * Prettier (HTML/CSS/JavaScript "style guide")
   * [Prettier](https://prettier.io/) is a style guide on its own since it
-    formats your code in specific ways. See the note on Prettier in the
+    formats your code in specific ways. 🔎See the note on Prettier in the
     [consistency section](#enforcing-a-consistent-developer-experience) to see
     how this is accomplished
 * JavaScript Style Guides
@@ -388,7 +388,7 @@ Example](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.
     ) - Example of Google's style (mainly for docstrings)
 * Docstrings are incredibly important for documenting functions
   * See points above for guides on writing docstrings for different languages
-  * See the [`exampleDocstring.js`](../resources/exampleDocstring.js) file for a
+  * 🔎See the [`exampleDocstring.js`](../resources/exampleDocstring.js) file for a
     JSDoc example
   * ❕Note: Don't spend too much time creating the perfect docstring, since
     function arguments, return values, and implementations can often change over
@@ -407,7 +407,7 @@ be reusing code by copying it in many places.
   [abstractions](https://en.wikipedia.org/wiki/Abstraction_(computer_science)):
   put simply, create an easily accessible frameworks so that you don't have to
   understand every single detail of how something works in your code
-  * See [here](https://developer.mozilla.org/en-US/docs/Glossary/Abstraction)
+  * 🔎See [here](https://developer.mozilla.org/en-US/docs/Glossary/Abstraction)
     for an example definition in the web development context
   * For example, [D3](https://d3js.org/) is an abstraction; you use D3's cool
     tools to create SVGs, but you don't know and don't have to care about how it
@@ -422,20 +422,20 @@ be reusing code by copying it in many places.
   * [Medium
     article](https://betterprogramming.pub/demeters-law-don-t-talk-to-strangers-87bb4af11694)
     on this topic
-  * See the javascript file [here](../resources/lawOfDemeterExample.js) for an
+  * 🔎See the javascript file [here](../resources/lawOfDemeterExample.js) for an
     example of this in action
 
 ### Arrow Code
 * Arrow code arises when you have complex logic that requires a lot of nested
 conditionals.
 * These nested conditionals make the shape of an arrow ➡️, hence the name.
-* See [`arrowCodeExample.js`](../resources/arrowCodeExample.js) for an example
+* 🔎See [`arrowCodeExample.js`](../resources/arrowCodeExample.js) for an example
   of a function that has arrow code, and one that is "flattened" with **guard
   clauses**
 * Using guard clauses is the easiest way to flatten arrow code and make things
   more readable. These conditionals do what is known as an "**early return**",
   so that everything below that clause can remain on the same indentation level
-* See this [article](https://blog.codinghorror.com/flattening-arrow-code/) for
+* 🔎See this [article](https://blog.codinghorror.com/flattening-arrow-code/) for
   other ways to prevent arrow code
   
 
@@ -463,5 +463,6 @@ conditionals.
   * [Cypress](https://www.cypress.io/) - End to End (E2E) Web Development
     Testing Library 
   * [Pytest](https://docs.pytest.org/) - Most popular testing library for Python developers 
+* 🔎See [`src/App.test.js`](../src/App.test.js) for an example of unit tests within a CRA project
 
 
