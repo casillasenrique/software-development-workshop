@@ -1,10 +1,90 @@
 # Lunch and Learn/Workshop Outline and Resources
 
 ## Philosophies of Software Development
+
+At the highest level, software companies (theoretically 🤔) operate under a set of
+guiding principles as they make their products. Check out the list of principles
+the biggest tech companies operate under below:
+* Amazon's [Leadership Principles](https://www.amazon.jobs/en/principles)
+* Google's [Ten things we know to be true](https://about.google/philosophy/)
+* Meta's [Six Core Values](https://www.metacareers.com/facebook-life/)
+* Netflix [Culture and Valued Behaviors](https://jobs.netflix.com/culture)
 ###	Agile
-* Archived Manifesto - [Manifesto for Agile Software Development](http://agilemanifesto.org/)
-* Digital.ai - [15th State of Agile Report (2021)](https://digital.ai/resource-center/analyst-reports/state-of-agile-report/) 
-* Harvard Business Review - [Embracing Agile](https://hbr.org/2016/05/embracing-agile)
+
+[Agile](https://en.wikipedia.org/wiki/Agile_software_development) is a methodology
+that provides a set of values and principles with the purpose of delivering
+software solutions faster and with greater quality.
+
+* Agile is the most widely adopted development framework in the tech industry;
+  see the Digital.ai [15th State of Agile
+  Report](https://digital.ai/resource-center/analyst-reports/state-of-agile-report/)
+  from 2021
+* Check out the [Manifesto for Agile Software
+  Development](http://agilemanifesto.org/) that outlines the different
+  philosophies held by Agile - 
+  * **Individuals and interactions** over processes and tools
+  * **Working software** over comprehensive documentation
+  * **Customer collaboration** over contract negotiation
+  * **Responding to change** over following a plan
+* A common comparison is made between Agile and the [Waterfall
+  model](https://en.wikipedia.org/wiki/Waterfall_model)
+  * In the waterfall model, development moves very rigidly in phases (e.g.
+    analysis phase, design phase, development phase, testing phase, deployment
+    phase) from start to finish
+  * Agile, on the other hand, encourages going through this entire process
+    iteratively with support from communication with the customer
+* Miscellaneous Articles (note that some terminology might be
+  [outdated](https://developers.google.com/style/word-list)):
+  * https://hbr.org/2016/05/embracing-agile
+  * https://www.nvisia.com/insights/agile-methodology
+  * https://www.wrike.com/scrum-guide/scrum-sprints/  
+### Scrum
+* Most software teams that use Agile adhere to
+  [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) or some
+  iteration of it, which is an implementation of the Agile methodology
+* Scrum's key ideas revolve around constant interation of design, development,
+  testing in short (usually) two-week periods called
+  **[sprints](https://en.wikipedia.org/wiki/Scrum_sprint)**
+* To know what needs to get done, a list of tasks or [issues](#issues-overview)
+  are kept in a list known as the **product backlog**
+* Below is a simplified list of steps that happen during each sprint 
+  1. At the start of a sprint, a **Sprint Planning Meeting** is held where the
+     team figures out what they want to accomplish during the sprint (**Sprint
+     Goal**), and subsequently move issues from the product backlog into the
+     **Sprint Backlog** 
+  2. (❗Warning❗, controversial) Daily Scrum or **standup meetings** are short
+     daily meetings held in order for the team to stay synchronized
+     * The team discusses what they did yesterday, what they are going to do
+       today, and whether or not there is anything blocking them from doing
+       their work (<15min meeting)
+     * There is a lot of growing developer sentiment that daily standups can be
+       a waste of time, so a lot of teams opt to hold standups only once or
+       twice a week
+  3. At the end of the sprint, a **Sprint Review** meeting is held to check what
+     did or did not get accomplished
+
+### Dealing with Customers
+* Tech companies emphasize and encourage customer collaboration and focus, or at
+  least they say they do, since it is a great way to ensure the best products
+  are made
+* Rule of thumb is to listen to the customer or (potential) users as much as
+  possible
+* However, be aware of these common pitfalls
+  * [Requirements
+    Volatility](https://stackoverflow.blog/2020/02/20/requirements-volatility-is-the-core-problem-of-software-engineering/):
+    customers can often change the requirements of a project, which is normal,
+    but can easily get out of hand. Make sure the team is flexible enough to
+    react to these changes in requirements
+  * [Feature Creep](https://en.wikipedia.org/wiki/Feature_creep): Customers
+    absolutely *love* features, but having too many of them can lead to a
+    [bloated](https://en.wikipedia.org/wiki/Software_bloat) project that is
+    overcomplicated and difficult to use. This can also distract developers from
+    other, more important features. Be sure to think carefully about which
+    features are absolutely necessary and which can be put in the backlog 
+  * Similarly, be wary of [scope
+    creep](https://en.wikipedia.org/wiki/Scope_creep), where the scope or goal
+    of the project becomes larger and larger
+
 
 ## Issue Management
 Software projects have hundreds, even thousands of features, and many more bugs.
@@ -13,8 +93,9 @@ of these things that need to get done within a project.
 
 ### Issues Overview
 * Issues are central to managing features and bugs; an issue describes a
-  specific feature, bug, task, or concept. Issues are assigned to developers,
-  and they should be resolved
+  specific feature, bug, task, or concept. Issues are taken from a backlog (see
+  the [Scrum section](#scrum) for an example) assigned to developers, and are
+  resolved by those developers
 * Components of issues:
   * Title - The name of the issue
   * Group - A category this issue might belong in, such as an overarching
@@ -87,7 +168,8 @@ of these things that need to get done within a project.
 ## Development Environments
 
 ### IDEs and Code Editors
-* [Differences](https://blog.devart.com/difference-between-ide-and-code-editor-explained.html)
+* [Differences between editors and
+  IDEs](https://blog.devart.com/difference-between-ide-and-code-editor-explained.html)
   * IDEs provide a full set of tools for development on software projects. For
     much larger and complex projects, an IDE might be more suitable because they
     are more heavy-weight and provide a lot of built in developer support
@@ -103,9 +185,10 @@ of these things that need to get done within a project.
     using it 
 * JetBrains IDEs - [downloads](https://www.jetbrains.com/products/#type=ide-vs)
   * Note: Some versions require payment or educational license
-  * Use PyCharm for Python
-  * Use WebStorm for web development (HTML/JS/CSS)
-  * Use DataSpell for data science projects (e.g. Jupyter notebook projects)
+  * Use [PyCharm](https://www.jetbrains.com/pycharm/) for Python
+  * Use [WebStorm](https://www.jetbrains.com/webstorm/) for web development (HTML/JS/CSS)
+  * Use [DataSpell](https://www.jetbrains.com/dataspell/) for data science
+    projects (e.g. Jupyter notebook projects)
 * If you want to join the cool kids, use [Vim](https://www.vim.org/download.php) 😎
   * Pretty hardcore, but if you manage to learn how to use it, your coding speed
     will increase by 9000%.  
@@ -267,8 +350,29 @@ of these things that need to get done within a project.
 ## Coding Best Practices
 
 ### Testing
-* [Cypress](https://www.cypress.io/ ) - End to End (E2E) Testing Library
-  * .
+* For really large projects with clear feature requirements, writing automated
+  tests can be extremely helpful
+  * Most software development teams make sure that they are constantly testing
+    their code
+  * Each time a new feature is added or a bug is fixed, new tests are written,
+    and sometimes teams might require test result data in all commit messages
+* Some teams embrace [Test Driven
+  Development](https://en.wikipedia.org/wiki/Test-driven_development), which is
+  a process in which tests for a feature are written *before* the actual feature
+  is implemented 
+* Know the difference between unit
+  tests and integration/end-to-end
+  tests
+  * [Unit tests](https://en.wikipedia.org/wiki/Unit_testing) test individual
+    functions and components
+  * [Integration tests](https://en.wikipedia.org/wiki/Integration_testing) (or
+    E2E) test the individual components as a group, typically testing actual (or
+    simulated) interactions performed by users 
+* Popular testing libraries
+  * [Jest](https://jestjs.io/) - Unit test library for web development (built into [CRA](https://create-react-app.dev/) apps) 
+  * [Cypress](https://www.cypress.io/) - End to End (E2E) Web Development
+    Testing Library 
+  * [Pytest](https://docs.pytest.org/) - Most popular testing library for Python developers 
 
 ### DRY
 
