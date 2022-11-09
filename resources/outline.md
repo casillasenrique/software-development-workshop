@@ -349,6 +349,23 @@ of these things that need to get done within a project.
 
 ## Coding Best Practices
 
+### Style Guides and Docstrings
+* JavaScript
+  * [JSDoc](https://jsdoc.app/) - JavaScript *Docstring* Style Guide
+  * [Google JavaScript Style
+Guide](https://google.github.io/styleguide/jsguide.html ) - Google's complete
+style guide on writing JavaScript code
+* Python
+  * [PEP 8](https://peps.python.org/pep-0008/
+) - Python's official style guide
+  * [PEP 257](https://peps.python.org/pep-0257/) - Python's official docstring conventions
+  * [Google Python Style
+    Guide](https://google.github.io/styleguide/pyguide.html) - Google's enhanced
+    complete
+    Python style guide
+  * [Google Python Style
+Example](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
+    ) - Example of Google's style (mainly for docstrings)
 ### Testing
 * For really large projects with clear feature requirements, writing automated
   tests can be extremely helpful
@@ -404,26 +421,4 @@ be reusing code by copying it in many places.
     on this topic
   * See the javascript file [here](../resources/lawOfDemeterExample.js) for an
     example of this in action
-### Style Guides and Docstrings
-* JavaScript
-  * [JSDoc](https://jsdoc.app/) - JavaScript *Docstring* Style Guide
-  * [Google JavaScript Style
-Guide](https://google.github.io/styleguide/jsguide.html ) - Google's complete
-style guide on writing JavaScript code
-* Python
-  * [PEP 8](https://peps.python.org/pep-0008/
-) - Python's official style guide
-  * [PEP 257](https://peps.python.org/pep-0257/) - Python's official docstring conventions
-  * [Google Python Style
-    Guide](https://google.github.io/styleguide/pyguide.html) - Google's enhanced
-    complete
-    Python style guide
-  * [Google Python Style
-Example](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
-    ) - Example of Google's style (mainly for docstrings)
-
 ### Arrow Code
-
-### Law of Demeter
-https://betterprogramming.pub/demeters-law-don-t-talk-to-strangers-87bb4af11694
-
