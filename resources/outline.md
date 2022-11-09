@@ -350,12 +350,31 @@ of these things that need to get done within a project.
 ## Coding Best Practices
 
 ### Style Guides and Docstrings
-* JavaScript
+Once you are ready to start coding, one of the first things you usually ask in a
+software dev team is what coding style guide and conventions they use. It is
+incredibly important to have a consistent style guide so that different parts of
+the code are all formatted in the same way and are easy to read.
+
+For example, compare [`format1.js`](../resources/format1.js) with
+[`format2.js`](../resources/format2.js) in the `resources` folder. These two
+files accomplish the same thing, but they may look very different to different
+developers. 
+* MDN Web Development Style Guides
+  * MDN provides a set of style guides found [here](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide)
+  * Describes coding style for HTML, CSS, and JavaScript
+* Prettier (HTML/CSS/JavaScript "style guide")
+  * [Prettier](https://prettier.io/) is a style guide on its own since it
+    formats your code in specific ways. See the note on Prettier in the
+    [consistency section](#enforcing-a-consistent-developer-experience) to see
+    how this is accomplished
+* JavaScript Style Guides
+  * [MDN Official
+    Guide](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript)
   * [JSDoc](https://jsdoc.app/) - JavaScript *Docstring* Style Guide
   * [Google JavaScript Style
 Guide](https://google.github.io/styleguide/jsguide.html ) - Google's complete
 style guide on writing JavaScript code
-* Python
+* Python Style Guides
   * [PEP 8](https://peps.python.org/pep-0008/
 ) - Python's official style guide
   * [PEP 257](https://peps.python.org/pep-0257/) - Python's official docstring conventions
