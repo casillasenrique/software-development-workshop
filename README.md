@@ -2,6 +2,7 @@
 
 > See the complete talk outline [here](resources/outline.md)
 
+> View and download the presentation (`.pptx`) [here](resources/lunch-and-learn-presentation.pptx)
 ## (optional) Starting the sample website
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
