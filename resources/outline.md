@@ -159,13 +159,33 @@
   * Instead of making release branches, each pull request may or may not
     increment the version number and specify a new release (however, release
     branches are still a good practice and are common among software projects)
-* A more heavy-weight model, [`git-flow`](https://nvie.com/posts/a-successful-git-branching-model/), can be
+* A more heavy-weight model,
+  [`git-flow`](https://nvie.com/posts/a-successful-git-branching-model/), can be
   useful for larger projects
   * The key feature of this model is that there are *two* main branches,
     **main** and **develop**, as well as three different supporting branches
     that can be created - **feature**, **release**, and **hotfix** 
   * Think of **feature** branches as pull requests which get merged into
     **develop**, which then gets merged to **main** after a release
+  
+### Some Git Tips/Tricks
+* Use `git pull --rebase` instead of `git pull` before trying to push a new
+  commit on the main branch
+  * This [Medium
+    article](https://medium.com/@DGabeau/git-pull-rebase-vs-git-pull-c2b352fe53aa)
+    has a nice explanation of what this does and why you might want to use it
+  * Avoids unecessary branching on the main branch
+* VS Code has [integrated version
+  control](https://code.visualstudio.com/docs/sourcecontrol/overview) so in
+  theory you never have to write a single command! 😮 (still highly recommend
+  learning the commands) 
+* Use the [Git Graph](https://www.youtube.com/watch?v=u9ZQpKGTog4) and Git Lens
+  extensions within [VS Code](https://www.youtube.com/watch?v=rxKGgSLwOnU)
+  (YouTube videos linked)
+* If you are a visual learner and want to learn how Git works, check out this
+  great [tutorial website](https://learngitbranching.js.org/)
+  * Checkout the [sandbox version](https://learngitbranching.js.org/?NODEMO) as well
+* Don't use `master` as your primary branch, call it `main` ([Google's suggestions](https://developers.google.com/style/word-list#master)) 
 
 
 ## Coding Best Practices
