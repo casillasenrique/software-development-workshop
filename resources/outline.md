@@ -426,6 +426,19 @@ be reusing code by copying it in many places.
     example of this in action
 
 ### Arrow Code
+* Arrow code arises when you have complex logic that requires a lot of nested
+conditionals.
+* These nested conditionals make the shape of an arrow ➡️, hence the name.
+* See [`arrowCodeExample.js`](../resources/arrowCodeExample.js) for an example
+  of a function that has arrow code, and one that is "flattened" with **guard
+  clauses**
+* Using guard clauses is the easiest way to flatten arrow code and make things
+  more readable. These conditionals do what is known as an "**early return**",
+  so that everything below that clause can remain on the same indentation level
+* See this [article](https://blog.codinghorror.com/flattening-arrow-code/) for
+  other ways to prevent arrow code
+  
+
 ### Testing
 * For really large projects with clear feature requirements, writing automated
   tests can be extremely helpful
