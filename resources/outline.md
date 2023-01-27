@@ -309,6 +309,10 @@ of these things that need to get done within a project.
 * Consider including a version number somewhere in your codebase
   * A simple place is to include it in the [`package.json`
     file](../package.json)
+  * *Tip*: You can use the `npm version` to automatically bump the package
+    version. Read the docs
+    [here](https://docs.npmjs.com/cli/v9/commands/npm-version). The command will
+    automatically create a new commit and tag with the new version number.
   * Some projects include a top-level file specifically for storing a version
     number variable, like this [`ReactVersion.js`
     file](https://github.com/facebook/react/blob/main/ReactVersions.js).
